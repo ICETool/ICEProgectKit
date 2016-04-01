@@ -29,6 +29,11 @@
 		1783CE951CACFDD700B5D42F /* UIScrollView+ICEAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1783CE821CACFDD700B5D42F /* UIScrollView+ICEAdd.m */; };
 		1783CE961CACFDD700B5D42F /* UITableView+ICEAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1783CE841CACFDD700B5D42F /* UITableView+ICEAdd.m */; };
 		1783CE971CACFDD700B5D42F /* UIView+ICEAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1783CE861CACFDD700B5D42F /* UIView+ICEAdd.m */; };
+		1783CE9C1CAD14C500B5D42F /* UIFont+ICEAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1783CE9B1CAD14C500B5D42F /* UIFont+ICEAdd.m */; };
+		1783CE9F1CAD17B100B5D42F /* NSString+ICEAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1783CE9E1CAD17B100B5D42F /* NSString+ICEAdd.m */; };
+		1783CEA51CAD186E00B5D42F /* NSObject+YYAddForKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 1783CEA41CAD186E00B5D42F /* NSObject+YYAddForKVO.m */; };
+		1783CEA91CAD1A9100B5D42F /* NSObject+ICEBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 1783CEA81CAD1A9100B5D42F /* NSObject+ICEBlock.m */; };
+		1783CEF21CAD2DFC00B5D42F /* UIView+ICETapAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1783CEF11CAD2DFC00B5D42F /* UIView+ICETapAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +82,18 @@
 		1783CE841CACFDD700B5D42F /* UITableView+ICEAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+ICEAdd.m"; sourceTree = "<group>"; };
 		1783CE851CACFDD700B5D42F /* UIView+ICEAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ICEAdd.h"; sourceTree = "<group>"; };
 		1783CE861CACFDD700B5D42F /* UIView+ICEAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ICEAdd.m"; sourceTree = "<group>"; };
+		1783CE991CAD114600B5D42F /* ICEProgect.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICEProgect.pch; sourceTree = "<group>"; };
+		1783CE9A1CAD14B400B5D42F /* UIFont+ICEAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+ICEAdd.h"; sourceTree = "<group>"; };
+		1783CE9B1CAD14C500B5D42F /* UIFont+ICEAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+ICEAdd.m"; sourceTree = "<group>"; };
+		1783CE9D1CAD17B100B5D42F /* NSString+ICEAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ICEAdd.h"; sourceTree = "<group>"; };
+		1783CE9E1CAD17B100B5D42F /* NSString+ICEAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ICEAdd.m"; sourceTree = "<group>"; };
+		1783CEA31CAD186E00B5D42F /* NSObject+YYAddForKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYAddForKVO.h"; sourceTree = "<group>"; };
+		1783CEA41CAD186E00B5D42F /* NSObject+YYAddForKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYAddForKVO.m"; sourceTree = "<group>"; };
+		1783CEA61CAD18A000B5D42F /* YYKitMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYKitMacro.h; sourceTree = "<group>"; };
+		1783CEA71CAD1A9100B5D42F /* NSObject+ICEBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ICEBlock.h"; sourceTree = "<group>"; };
+		1783CEA81CAD1A9100B5D42F /* NSObject+ICEBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ICEBlock.m"; sourceTree = "<group>"; };
+		1783CEF01CAD2DFC00B5D42F /* UIView+ICETapAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ICETapAdd.h"; sourceTree = "<group>"; };
+		1783CEF11CAD2DFC00B5D42F /* UIView+ICETapAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ICETapAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,8 +126,6 @@
 		1783CC6E1CACBF1F00B5D42F /* ICE_Progect */ = {
 			isa = PBXGroup;
 			children = (
-				1783CC721CACBF1F00B5D42F /* AppDelegate.h */,
-				1783CC731CACBF1F00B5D42F /* AppDelegate.m */,
 				1783CC8C1CACBF5F00B5D42F /* Communal */,
 				1783CC8B1CACBF5F00B5D42F /* Category */,
 				1783CC8D1CACBF5F00B5D42F /* Controllers */,
@@ -121,6 +136,9 @@
 				1783CC921CACBF5F00B5D42F /* Third */,
 				1783CC901CACBF5F00B5D42F /* Other */,
 				1783CC781CACBF1F00B5D42F /* Main.storyboard */,
+				1783CC721CACBF1F00B5D42F /* AppDelegate.h */,
+				1783CE991CAD114600B5D42F /* ICEProgect.pch */,
+				1783CC731CACBF1F00B5D42F /* AppDelegate.m */,
 				1783CC7B1CACBF1F00B5D42F /* Assets.xcassets */,
 				1783CC7D1CACBF1F00B5D42F /* LaunchScreen.storyboard */,
 				1783CC801CACBF1F00B5D42F /* Info.plist */,
@@ -207,8 +225,9 @@
 		1783CE621CACFDD700B5D42F /* ICECategory */ = {
 			isa = PBXGroup;
 			children = (
-				1783CE631CACFDD700B5D42F /* foundation */,
 				1783CE731CACFDD700B5D42F /* ICECategory.h */,
+				1783CEA61CAD18A000B5D42F /* YYKitMacro.h */,
+				1783CE631CACFDD700B5D42F /* foundation */,
 				1783CE741CACFDD700B5D42F /* UIKit */,
 			);
 			path = ICECategory;
@@ -228,10 +247,18 @@
 				1783CE6C1CACFDD700B5D42F /* NSFileManager+ICEAdd.m */,
 				1783CE6D1CACFDD700B5D42F /* NSObject+ICEAdd.h */,
 				1783CE6E1CACFDD700B5D42F /* NSObject+ICEAdd.m */,
+				1783CEA71CAD1A9100B5D42F /* NSObject+ICEBlock.h */,
+				1783CEA81CAD1A9100B5D42F /* NSObject+ICEBlock.m */,
 				1783CE6F1CACFDD700B5D42F /* NSTimer+ICEAdd.h */,
 				1783CE701CACFDD700B5D42F /* NSTimer+ICEAdd.m */,
 				1783CE711CACFDD700B5D42F /* UIApplication+ICEAdd.h */,
 				1783CE721CACFDD700B5D42F /* UIApplication+ICEAdd.m */,
+				1783CE9A1CAD14B400B5D42F /* UIFont+ICEAdd.h */,
+				1783CE9B1CAD14C500B5D42F /* UIFont+ICEAdd.m */,
+				1783CE9D1CAD17B100B5D42F /* NSString+ICEAdd.h */,
+				1783CE9E1CAD17B100B5D42F /* NSString+ICEAdd.m */,
+				1783CEA31CAD186E00B5D42F /* NSObject+YYAddForKVO.h */,
+				1783CEA41CAD186E00B5D42F /* NSObject+YYAddForKVO.m */,
 			);
 			path = foundation;
 			sourceTree = "<group>";
@@ -257,6 +284,8 @@
 				1783CE841CACFDD700B5D42F /* UITableView+ICEAdd.m */,
 				1783CE851CACFDD700B5D42F /* UIView+ICEAdd.h */,
 				1783CE861CACFDD700B5D42F /* UIView+ICEAdd.m */,
+				1783CEF01CAD2DFC00B5D42F /* UIView+ICETapAdd.h */,
+				1783CEF11CAD2DFC00B5D42F /* UIView+ICETapAdd.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -337,18 +366,23 @@
 				1783CE8E1CACFDD700B5D42F /* UIApplication+ICEAdd.m in Sources */,
 				1783CE951CACFDD700B5D42F /* UIScrollView+ICEAdd.m in Sources */,
 				1783CE961CACFDD700B5D42F /* UITableView+ICEAdd.m in Sources */,
+				1783CE9C1CAD14C500B5D42F /* UIFont+ICEAdd.m in Sources */,
 				1783CE971CACFDD700B5D42F /* UIView+ICEAdd.m in Sources */,
 				1783CE8F1CACFDD700B5D42F /* UIBarButtonItem+ICEAdd.m in Sources */,
 				1783CE891CACFDD700B5D42F /* NSDate+ICEAdd.m in Sources */,
 				1783CE8B1CACFDD700B5D42F /* NSFileManager+ICEAdd.m in Sources */,
 				1783CE911CACFDD700B5D42F /* UIColor+ICEAdd.m in Sources */,
+				1783CEA51CAD186E00B5D42F /* NSObject+YYAddForKVO.m in Sources */,
 				1783CE8D1CACFDD700B5D42F /* NSTimer+ICEAdd.m in Sources */,
 				1783CE901CACFDD700B5D42F /* UIButton+ICEBlock.m in Sources */,
 				1783CC741CACBF1F00B5D42F /* AppDelegate.m in Sources */,
+				1783CEF21CAD2DFC00B5D42F /* UIView+ICETapAdd.m in Sources */,
 				1783CC711CACBF1F00B5D42F /* main.m in Sources */,
 				1783CE8A1CACFDD700B5D42F /* NSDictionary+ICEAdd.m in Sources */,
 				1783CE871CACFDD700B5D42F /* Foundation+Log.m in Sources */,
 				1783CE931CACFDD700B5D42F /* UIGestureRecognizer+ICEAdd.m in Sources */,
+				1783CE9F1CAD17B100B5D42F /* NSString+ICEAdd.m in Sources */,
+				1783CEA91CAD1A9100B5D42F /* NSObject+ICEBlock.m in Sources */,
 				1783CE921CACFDD700B5D42F /* UIControl+ICEBlock.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -463,6 +497,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ICE_Progect/ICEProgect.pch";
 				INFOPLIST_FILE = ICE_Progect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wanliyun.ICE-Progect";
@@ -474,6 +510,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ICE_Progect/ICEProgect.pch";
 				INFOPLIST_FILE = ICE_Progect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wanliyun.ICE-Progect";

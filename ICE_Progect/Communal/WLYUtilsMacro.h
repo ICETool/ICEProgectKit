@@ -6,7 +6,7 @@
 //  Copyright © 2016年 WLY. All rights reserved.
 //
 /**
- *  方便使用的宏定义
+ *  常用宏
  */
 
 
@@ -41,6 +41,12 @@
 #   define DLog(...)
 #   define SLog(...)
 #endif
+
+
+
+
+
+
 
 
 #endif /* WDAUtilsMacro_h */

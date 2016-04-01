@@ -1,4 +1,6 @@
 
+
+/* 在工程中引入此文件, 在控制台打印字符串时, 可以显示正常的汉字 */
 #import <Foundation/Foundation.h>
 
 @implementation NSDictionary (Log)

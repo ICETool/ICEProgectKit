@@ -24,8 +24,10 @@
 
 #define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
 
-#define SCREEN_RATIO  (SCREEN_WIDTH / 320)
+#define SCREEN_RATIO  (SCREEN_WIDTH / SCREEN_WIDTH_CURREN)
 
+//当前的屏幕尺寸
+#define SCREEN_WIDTH_CURREN 320;
 
 #define CONTENT_HEIGHT (SCREEN_HEIGHT - NAVIGATION_BAR_HEIGHT - STATUS_BAR_HEIGHT)
 
@@ -65,36 +67,8 @@
 #define STATUS_BAR_HEIGHT                                         20    // 状态栏
 #define TABBAR_HEIGHT                                             49    //标签栏
 
-#pragma mark - 视图间距
-/**
- *  视图间距
- */
-#define SPACING                          15
-#define SPACING_UP_UNDER                 30      //弹出框内容距离上下
-#define CELL_H                           40 * SCREEN_RATIO    //下拉菜单高度
-#define AVATAR_Avator_h                  60 * SCREEN_RATIO      //头像大小
 
-
-
-#pragma mark - 颜色
-#define Global_back_dark          UIColorWithHex(0xcccccc)  //深色背景颜色
-#define Global_back               UIColorWithHex(0xeeeeee) //背景颜色
-
-#define Global_Line_dark          UIColorWithHex(0xffffff)  //深色分割线
-#define Global_Line               UIColorWithHex(0xeeeeee) //分割线颜色
-#pragma mark - 颜色类
-#define Global_red                UIColorWithRGB(234,19,35)    //全局红色
-#define Global_white              UIColorWithHex(0xffffff) //白色
-#define Global_tineColor          UIColorWithHex(0x50cb8c)
-#define Global_clear              [UIColor clearColor]
-
-
-
-#pragma mark - app信息 字符串标示
-
-#define kAccesstoken                           @"accessToken"
-#define kUserName                              @"mobliePhone"
-#define kUserInfo                              @"userInfo"
+//////////////////////////////////////////////////
 
 
 

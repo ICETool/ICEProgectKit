@@ -6,7 +6,7 @@
 //  Copyright © 2016年 wlycloud. All rights reserved.
 
 
-#import "NSDictionary+ ICEXAdd.h"
+#import "NSDictionary+ICEAdd.h"
 
 @implementation NSDictionary (ICEAdd)
 

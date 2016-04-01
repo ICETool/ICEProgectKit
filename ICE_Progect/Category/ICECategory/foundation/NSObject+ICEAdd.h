@@ -8,11 +8,14 @@
 /*
  * 关联
  * 获取类名
+ * 获取当前视图控制器
  */
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 NS_ASSUME_NONNULL_BEGIN
+
+
 
 
 @interface NSObject (ICEAdd)

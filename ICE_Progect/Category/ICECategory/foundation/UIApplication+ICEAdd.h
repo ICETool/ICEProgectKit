@@ -8,11 +8,36 @@
 /*
  * 文件路径
  * 工程信息
+ * 硬件信息
  * 软件信息
  */
 
 #import <UIKit/UIKit.h>
 NS_ASSUME_NONNULL_BEGIN
+
+
+
+//ios系统版本
+#define ios9x [[[UIDevice currentDevice] systemVersion] floatValue] >=9.0f
+#define ios8x [[[UIDevice currentDevice] systemVersion] floatValue] >=8.0f
+#define ios7x ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0f) && ([[[UIDevice currentDevice] systemVersion] floatValue] < 8.0f)
+#define ios6x [[[UIDevice currentDevice] systemVersion] floatValue] < 7.0f
+#define iosNot6x [[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0f
+
+
+//iOS 设备类型
+#define IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+
+
+//iOS 设备版本
+#define iphone4x_3_5 ([UIScreen mainScreen].bounds.size.height==480.0f)
+
+#define iphone5x_4_0 ([UIScreen mainScreen].bounds.size.height==568.0f)
+
+#define iphone6_4_7 ([UIScreen mainScreen].bounds.size.height==667.0f)
+
+#define iphone6Plus_5_5 ([UIScreen mainScreen].bounds.size.height==736.0f || [UIScreen mainScreen].bounds.size.height==414.0f)
+
 
 
 typedef void(^FirstLaunchBLock) (BOOL isFirst);
